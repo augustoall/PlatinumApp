@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:id="@+id/linear_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btregistraempresa"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/verde_destaq"
+            android:onClick="gravarformapagamento"
+            android:text="SALVAR FORMA DE PAGAMENTO"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fp_txv_total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/verde_destaq"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fp_txv_valparcela"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/verde_destaq"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_do_scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear_widgets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+                <!-- *************** inicio das views ******************* -->
+                <!-- *************** inicio views ******************* -->
+
+
+                <!-- *************** fim views ******************* -->
+                <!-- *************** fim views ******************* -->
+                <LinearLayout
+                    android:id="@+id/linear_do_scrool2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/linear_widgets1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical">
+                            <!-- *************** inicio das views ******************* -->
+                            <!-- *************** inicio views ******************* -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txv01"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:paddingLeft="10dp"
+                                    android:text="ESCOLHA UMA OPÇÃO DE PAGAMENTO"
+                                    android:textSize="17sp" />
+
+                                <Spinner
+                                    android:id="@+id/fp_sp_formaspagamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:gravity="center_horizontal"
+                                    android:pointerIcon="arrow"
+                                    android:textAlignment="center"
+                                    android:textDirection="rtl" />
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayoutEntrada"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <RadioGroup
+                                        android:id="@+id/fp_rg_opcoes_parcelamento"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <RadioButton
+                                            android:id="@+id/fp_rd_parc_sem_entrada"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:checked="true"
+                                            android:text="sem entrada"
+                                            android:textStyle="bold" />
+
+                                        <RadioButton
+                                            android:id="@+id/fp_rd_parc_com_entrada"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="com entrada"
+                                            android:textStyle="bold" />
+                                    </RadioGroup>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayoutParcelasNormal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <EditText
+                                            android:id="@+id/fp_txt_parcelamento_normal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="quantidade de parcelas"
+                                            android:inputType="number"
+                                            android:maxLines="1" />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/txvMetodoPagamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:paddingLeft="10dp"
+                                    android:text="FORMA DE PAGAMENTO"
+                                    android:textSize="17sp" />
+
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayoutTipoPagamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp">
+
+                                    <RadioGroup
+                                        android:id="@+id/Rg_fp_tipopagamento"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <RadioButton
+                                            android:id="@+id/fp_rb_dinheiro"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:checked="true"
+                                            android:text="dinheiro"
+                                            android:textStyle="bold" />
+
+                                        <RadioButton
+                                            android:id="@+id/fp_rb_cartao"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="cartão"
+
+                                            android:textStyle="bold" />
+
+                                        <RadioButton
+                                            android:id="@+id/fp_rb_cheque"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="cheque"
+                                            android:textStyle="bold" />
+                                    </RadioGroup>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <EditText
+                                            android:id="@+id/fp_txt_valorRecebido"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="valor recebido"
+                                            android:inputType="numberDecimal"
+                                            android:maxLines="1" />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <EditText
+                                            android:id="@+id/fp_txt_parcelascartao_avista"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="quantidade de parcelas do cartão"
+                                            android:inputType="number"
+                                            android:maxLines="1"
+
+                                            />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                            <!-- *************** fim views ******************* -->
+                            <!-- *************** fim views ******************* -->
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

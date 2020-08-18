@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "575689054337",
+    "firebase_url": "https://centralmetadevendasoficial.firebaseio.com",
+    "project_id": "centralmetadevendasoficial",
+    "storage_bucket": "centralmetadevendasoficial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575689054337:android:5ef7bb30b6c9276b",
+        "android_client_info": {
+          "package_name": "br.com.app.centralmetadevendasoficial.appvendas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575689054337-rv9pr698698rnivo44ad0fc5tci2c9a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxWr4UUroIx_5NaX_EWSMePIvUYJFyKWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

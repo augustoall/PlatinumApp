@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayou111t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txvipserver"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="ENDEREÇO DO SERVIDOR"></TextView>
+
+        <EditText
+            android:id="@+id/conf_txt_ipserver2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="15dp"
+            android:text="http://www.centralmetadevendas.com.br"></EditText>
+
+        <Button
+            android:id="@+id/btn_update_conf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+
+            android:onClick="UpdateConf"
+            android:text="Alterar Configurações"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</ScrollView>

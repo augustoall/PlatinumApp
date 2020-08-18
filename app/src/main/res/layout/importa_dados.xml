@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_importdata_corel" />
+
+        <Button
+            android:id="@+id/btn_importar"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:onClick="importa"
+            android:text="importar"
+            android:textSize="40dp" />
+    </LinearLayout>
+</LinearLayout>

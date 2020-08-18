@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_pai"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgwifi"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/wifi" />
+
+        <ImageView
+            android:id="@+id/imgmobile"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/conecttresg" />
+
+        <ImageView
+            android:id="@+id/imgdisconected"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/disconected" />
+
+        <TextView
+            android:id="@+id/princ_txv000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:text="licenca"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linear_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linear_horizontal_scrool_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_config"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_configs"
+                    android:onClick="configuracoes"
+                    android:text="config" />
+
+
+                <Button
+                    android:id="@+id/btn_licenca"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_licenca_corel"
+                    android:onClick="adquirilicenca"
+                    android:text="licença" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_horizontal_scrool_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_atualiza_clienteoffline"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/sync"
+                    android:onClick="update_sync"
+                    android:text="Sincronizar" />
+
+
+                <Button
+                    android:id="@+id/btn_import"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_importdata_corel"
+                    android:onClick="importardados"
+                    android:text="importar" />
+
+
+                <Button
+                    android:id="@+id/btn_export"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_exportdata_corel"
+                    android:onClick="exportardados"
+                    android:text="exportar" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_horizontal_scroolll_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_conrrrfig"
+                    style="@style/DashboardButtonsScroolViews"
+
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_addprod_corel"
+                    android:onClick="realiza_vendas"
+                    android:text="Vender" />
+
+
+                <Button
+                    android:id="@+id/btn_conrrrfig"
+                    style="@style/DashboardButtonsScroolViews"
+
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/rating"
+                    android:onClick="vettodasvendas"
+                    android:text="Ver vendas" />
+
+
+                <Button
+                    android:id="@+id/btn_addchdsdhhhli"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_pagamento_corel"
+                    android:onClick="receber"
+                    android:text="receber" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_horizontal_scrool_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cadastrarcliente"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_addclient_corel"
+                    android:onClick="CadCliente"
+                    android:text="adicionar cliente" />
+
+
+                <Button
+                    android:id="@+id/btn_editarcliente"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_editclient_corel"
+                    android:onClick="EditarCliente"
+                    android:text="editar cliente" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_horizontal_scrool_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_loadimages"
+                    style="@style/DashboardButtonsScroolViews"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_image_corel"
+                    android:onClick="loadCatalogo"
+                    android:text="catalogo produtos" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="CENTRAL META DE VENDAS"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="wwww.centralmetadevendas.com.br"
+            android:textSize="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="@string/comprarlicenca"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="aplicativo de vendas externas - todos os direitos reservados"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/txvcreditos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="créditos"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/txvpoliticaprivacidade"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="política de privacidade"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3d5afe</color>
+    <color name="colorPrimaryDark">#536DFE</color>
+    <color name="colorAccent">#448AFF</color>
+
+
+    <color name="ToastCollorBackGround">#000000</color>
+    <color name="ToastCollorBorder">#080000</color>
+
+
+    <color name="verde_destaq">#8bc34a</color>
+
+</resources>

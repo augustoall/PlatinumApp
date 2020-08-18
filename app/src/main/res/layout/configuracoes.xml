@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/conf_btn_atualizar"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:background="@color/verde_destaq"
+            android:onClick="atualizar_config"
+            android:text="Atualizar"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_do_scrool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear_widgets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!-- *************** inicio das views ******************* -->
+                <!-- *************** inicio views ******************* -->
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Endereço do servidor web"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/conf_txt_ipserver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:text="http://www.centralmetadevendas.com.br"
+                    android:textSize="14sp"></EditText>
+
+                <RadioGroup
+                    android:id="@+id/conf_rg_importclientes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/conf_rb_todosclientes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Importar todos clientes cadastrados" />
+
+                    <RadioButton
+                        android:id="@+id/conf_rb_meusclientes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Importar apenas meus clientes" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center_vertical"
+                    android:text="Código do vendedor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/conf_txt_usu_codigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="25dp"
+                    android:inputType="number"
+                    android:text=""></EditText>
+
+
+                <TextView
+                    android:id="@+id/txvjuros"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Juros na venda a prazo"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/conf_txt_jurosvendaprazo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="25dp"
+                    android:inputType="numberDecimal"
+                    android:text="0"></EditText>
+
+
+                <TextView
+                    android:id="@+id/descontovendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Desconto vendedor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/conf_txt_descontovendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="25dp"
+                    android:inputType="numberDecimal"
+                    android:text="0"></EditText>
+
+                <CheckBox
+
+                    android:id="@+id/conf_cb_vender_sem_estoque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Permitir venda sem estoque"
+                    android:textSize="13dp" />
+
+                <CheckBox
+
+                    android:id="@+id/conf_cb_pedir_senha_venda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Pedir senha na venda (autorização do cliente)"
+                    android:textSize="13dp" />
+
+                <CheckBox
+
+                    android:id="@+id/conf_cb_permitir_vendaacimalimite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Permitir venda acima do limite do cliente"
+                    android:textSize="13dp" />
+
+
+                <!-- *************** fim views ******************* -->
+                <!-- *************** fim views ******************* -->
+            </LinearLayout>
+
+
+        </ScrollView>
+   </LinearLayout>
+</LinearLayout>

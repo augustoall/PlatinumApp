@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_pai"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wifi" />
+
+            <TextView
+                android:id="@+id/txv01icons123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/conectwifi"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons232332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/conecttresg" />
+
+
+            <TextView
+                android:id="@+id/txv01icons22332211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/conectmobile"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/disconected" />
+
+
+            <TextView
+                android:id="@+id/txv01icons56423423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/disconect"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons6576575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_configs" />
+
+
+            <TextView
+                android:id="@+id/txv01icons3345665444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/configuracoes"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons656764432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_licenca_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsbbgf34343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/obterlicencas"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsgff45422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sync" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsdfgfd4545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/sincronizarcinza"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons343432dfdfgd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_importdata_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsfgdfgdf4545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/importardados"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01icons34324sdfdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exportdata_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01icons3423fgfgfgsssaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/exportardados"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconssdfdfds3434333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_addprod_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01icons23423ssdbbb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/realizarvenda"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsbbbnnjjjgg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pagamento_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconshhhjmhjh4444f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/receberconta"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsffhhuoplll34wsd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_addclient_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsnnaaxzert554r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/adicionarcliente"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsbrbrgghu7754fs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_editclient_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsmouasfghjun5gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/editarcliente"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsfdgfdgdfgf55tfjjgf1y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image_corel" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsbbbb66gfggjjjj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/catalogoprodutos"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsjjkkllooppppp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/client" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsveveveve55fgfg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/listadeclientes"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsmymymymyjjhhg545gg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rating" />
+
+
+            <TextView
+                android:id="@+id/txv01iconsvevevrreve55fgfg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/vertodasvendas"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txv01iconsmymymymyjjhhg545gg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/flaticon"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

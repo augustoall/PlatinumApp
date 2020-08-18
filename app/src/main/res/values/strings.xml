@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Central Meta de Vendas</string>
+    <string name="title_activity_principal">Central Meta Vendas</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Aplicativo de contas a receber</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="title_activity_serial_key">Chave de Licença</string>
+    <string name="title_activity_change_ip_server">ChangeIpServer</string>
+    <string name="title_activity_lista_contas_receber">Baixa de Contas a Receber</string>
+    <string name="title_activity_adiciona_produto_venda">Adicionando produto na venda</string>
+    <string name="title_activity_forma_de_pagamento">Forma de pagamento</string>
+    <string name="title_activity_editarcliente">Editar Cliente</string>
+    <string name="title_activity_image_loader_produtos">Imagem Produtos</string>
+    <string name="title_activity_lista_parcelas_vencidas">Lista Parcelas Vencidas</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">email do vendedor (login no sistema)</string>
+
+    <!-- cadastro de cliente -->
+    <string name="cli_nome">nome do cliente</string>
+    <string name="cli_fantasia">nome fantasia</string>
+    <string name="cli_endereco">endereço do cliente</string>
+    <string name="cli_bairro">bairro do cliente</string>
+    <string name="cli_cep">CEP</string>
+    <string name="cli_contato1">contato cel (xx)9-9899-0000</string>
+    <string name="cli_contato2">contato cel (xx)9-9899-0000</string>
+    <string name="cli_contato3">contato fixo (xx)3811-9999</string>
+    <string name="cli_nascimento">data de nascimento 14/09/1980</string>
+    <string name="cli_cpfcnpj">cnpj ou cpf</string>
+    <string name="cli_rginscricaoest">rginscrição estatual</string>
+    <string name="cli_limite">limite de compra</string>
+    <string name="cli_email">email do cliente</string>
+    <string name="cli_observacao">Observação</string>
+    <string name="cli_senha">senha do cliente</string>
+    <string name="nomecidade">nome cidade</string>
+
+    <!-- licença dos icones -->
+    <string name="flaticon"> em <a href="https://www.flaticon.com/">https://www.flaticon.com/</a></string>
+    <string name="conectwifi"> <a href="https://www.flaticon.com/authors/roundicons">ícone desenvolvido por : https://www.flaticon.com/authors/roundicons </a></string>
+    <string name="conectmobile"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+    <string name="disconect"> <a href="https://www.flaticon.com/authors/pixel-perfect">ícone desenvolvido por : https://www.flaticon.com/authors/pixel-perfect</a></string>
+    <string name="configuracoes"> <a href="https://www.flaticon.com/authors/prosymbols">ícone desenvolvido por : https://www.flaticon.com/authors/prosymbols</a></string>
+    <string name="obterlicencas"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+    <string name="sincronizarcinza"> <a href="http://www.freepik.com">ícone desenvolvido por : https://www.flaticon.com/authors/madebyoliver</a></string>
+    <string name="importardados"> <a href="https://www.flaticon.com/authors/roundicons">ícone desenvolvido por : https://www.flaticon.com/authors/roundicons</a></string>
+    <string name="exportardados"> <a href="https://www.flaticon.com/authors/roundicons">ícone desenvolvido por : https://www.flaticon.com/authors/roundicons</a></string>
+    <string name="realizarvenda"> <a href="https://www.flaticon.com/authors/prosymbols">ícone desenvolvido por : https://www.flaticon.com/authors/prosymbols</a></string>
+    <string name="receberconta"> <a href="https://www.flaticon.com/authors/dinosoftlabs">ícone desenvolvido por : https://www.flaticon.com/authors/dinosoftlabs</a></string>
+    <string name="adicionarcliente"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+    <string name="editarcliente"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+    <string name="catalogoprodutos"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+    <string name="listadeclientes"> <a href="https://www.flaticon.com/authors/madebyoliver">ícone desenvolvido por : https://www.flaticon.com/authors/madebyoliver</a></string>
+    <string name="rotas"> <a href="https://www.flaticon.com/authors/smashicons">ícone desenvolvido por : https://www.flaticon.com/authors/smashicons</a></string>
+    <string name="vertodasvendas"> <a href="http://www.freepik.com">ícone desenvolvido por : http://www.freepik.com</a></string>
+
+
+    <string name="comprarlicenca"><a href="http://centralmetadevendas.com.br/licencas">adquirir licença http://centralmetadevendas.com.br/licencas</a></string>
+    <string name="Menuopcoes">Menu de Opções</string>
+    <string-array name="opcoes_venda">
+        <item>Realizar Venda</item>
+        <item>Alterar dados do cliente</item>
+    </string-array>
+
+    <string-array name="opcoes_venda_2">
+        <item>Continuar pedido.</item>
+        <item>Não quero salvar este pedido.</item>
+        <item>Sair e Salvar.</item>
+    </string-array>
+
+    <string-array name="opcoes_venda_addprodutovenda">
+        <item>Continuar pedido.</item>
+        <item>Não quero salvar estes itens.</item>
+    </string-array>
+
+
+    <string-array name="opcoes_receber">
+        <item>Ver pedidos do cliente</item>
+        <item>Alterar dados do cliente</item>
+    </string-array>
+    <string name="title_activity_lista_vendas_realizadas">ListaVendasRealizadas</string>
+
+    <string name="dlg_informa_valor_recebido">Informa valor recebido</string>
+    <string name="dlg_adiciona_produto">Adiciona Produto</string>
+    <string name="dlg_pedir_senha">Informa a senha do cliente</string>
+
+    <string name="dlg_descricaoproduto">Descrição do produto:</string>
+    <string name="dlg_descricao_texto">Coca-cola 2 litros</string>
+
+    <string name="dlg_preco">Preço do produto:</string>
+    <string name="dlg_preco_texto">4.99</string>
+
+    <string name="dlg_estoque">Estoque:</string>
+    <string name="dlg_estoque_texto">70</string>
+
+    <string name="dlg_quantidade_informada">informa a quantidade:</string>
+
+    <!-- acoes padrao para positive e negative -->
+    <string name="dlg_positiveText_confirmar">confirmar</string>
+    <string name="dlg_negativeText_cancelar">cancelar</string>
+    <string name="dlg_confima_exclusao">Confirma exclusão</string>
+
+
+
+    <string name="md_done_label">sucesso</string>
+</resources>

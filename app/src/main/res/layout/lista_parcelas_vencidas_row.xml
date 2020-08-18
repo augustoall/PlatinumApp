@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        card_view:cardElevation="5dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="11dp"
+            android:background="#ffffff">
+
+
+
+            <TextView
+                android:id="@+id/txt_lista_parcelas_vencidas_rec_cli_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/img_produto"
+                android:layout_toRightOf="@+id/img_produto"
+                android:text="nome do cliente" />
+
+            <TextView
+                android:id="@+id/txt_lista_parcelas_vencidas_rec_valorreceber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_below="@+id/txt_lista_parcelas_vencidas_rec_cli_nome"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_produto"
+                android:layout_toRightOf="@+id/img_produto"
+                android:text="valor receber" />
+
+            <TextView
+                android:id="@+id/txt_lista_parcelas_vencidas_rec_datavecimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/verde_destaq"
+                android:layout_below="@+id/txt_lista_parcelas_vencidas_rec_valorreceber"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/img_produto"
+                android:layout_toRightOf="@+id/img_produto"
+                android:text="data de vencimento" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

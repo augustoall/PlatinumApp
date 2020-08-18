@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.app.platinumapp.appvendas">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--action android:name="android.net.conn.CONNECTIVITY_CHANGE" /-->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Main.Applications"
+        android:allowBackup="true"
+        android:icon="@drawable/cmdvic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/myAppTheme"
+        tools:replace="icon,label">
+        <activity
+            android:name=".Importacoes.RegistraEmpresa"
+            android:label="@string/title_activity_principal"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.Principal" />
+        <activity android:name=".Importacoes.CadastraCliente" />
+        <activity
+            android:name=".Controller.Configuracoes"
+            android:label="@string/title_activity_configuracoes" />
+        <activity
+            android:name=".Importacoes.Pedir_chave_de_licenca"
+            android:label="@string/title_activity_serial_key"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Importacoes.Trocar_ip_servidor"
+            android:label="@string/title_activity_change_ip_server" />
+        <activity
+            android:name=".Importacoes.aExec_imports"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Exportacoes.aExec_exports"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Controller.VenderProduto"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Controller.ListaClientesVenda"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Controller.BaixaContasReceber"
+            android:label="@string/title_activity_lista_contas_receber"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Controller.ListaClientesReceber"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Controller.AddProdutoVenda"
+            android:label="@string/title_activity_adiciona_produto_venda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Controller.FormaDePagamento"
+            android:label="@string/title_activity_forma_de_pagamento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Controller.ListaClientesEditar"
+            android:label="@string/title_activity_editarcliente"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Controller.CatalogoProdutosRecyclerView"
+            android:label="@string/title_activity_image_loader_produtos" />
+
+        <activity
+            android:name=".Controller.ListaParcelasVencidas"
+            android:label="@string/title_activity_lista_parcelas_vencidas" />
+
+        <receiver
+            android:name=".BroadcastReceivers.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastReceivers.Boot"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastReceivers.ExportAutoReceiver">
+            <intent-filter>
+                <action android:name="SEND_BROADCAST_EXPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Services.SyncAuto"
+            android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="INICIAR_SERVICO" />
+            </intent-filter>
+        </service>
+
+        <!-- Firebase Notifications -->
+        <service android:name=".Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name=".Main.Creditos" />
+        <activity
+            android:name=".Controller.ListaVendasRealizadas"
+            android:label="@string/title_activity_lista_vendas_realizadas"
+            android:theme="@style/myAppTheme"></activity>
+    </application>
+
+</manifest>

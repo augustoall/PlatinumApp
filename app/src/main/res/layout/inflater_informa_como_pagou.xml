@@ -1,0 +1,177 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+            <Button
+                android:id="@+id/bt_gravarcheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="salvar" />
+
+            <Button
+                android:id="@+id/saircheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sair" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:id="@+id/sp_chequeterceiro"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nome do banco" />
+
+            <EditText
+                android:id="@+id/pgnomedobanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nome do banco"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cpf" />
+
+            <EditText
+                android:id="@+id/pgcpfdono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="cpf do proprio ou terceiro"
+                android:inputType="number"
+                android:maxLength="11" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dono do cheque (proprio/terceiro)" />
+
+            <EditText
+                android:id="@+id/pgdonocheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="proprio ou nome do terceiro"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="numero do cheque" />
+
+            <EditText
+                android:id="@+id/pgnumerocheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="numero cheque"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone 1" />
+
+            <EditText
+                android:id="@+id/pgTelefone1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ex : 01691999988"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone 2" />
+
+            <EditText
+                android:id="@+id/pgtelefone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ex : 01699997777"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="valor cheque" />
+
+            <EditText
+                android:id="@+id/pgvalorcheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="valor cheque"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vencimento do cheque" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+
+
+            <ImageView
+                android:id="@+id/pg_img_vencimentocheque"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:src="@drawable/data1"
+
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:id="@+id/pgvencimentocheque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="01/01/1980"
+                android:inputType="date" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
