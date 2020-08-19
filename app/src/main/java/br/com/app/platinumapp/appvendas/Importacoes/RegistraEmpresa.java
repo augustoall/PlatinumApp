@@ -91,13 +91,22 @@ public class RegistraEmpresa extends AppCompatActivity implements ConnectivityRe
         declaraObjetos();
         inicializa_empresa_sqlite();
         updateNetwork();
-
+/*
 
             txtemp_email.setText("usuario@gmail.com");
             txt_emp_cpf.setText("17984958050");
             txtemp_numerocelular.setText("1699432345");
             txtnome_empresa.setText("CMDV-PRODUTOS-LA");
             txtNomeVendedor.setText("vendedor1");
+
+*/
+
+        txtemp_email.setText("usuario@gmail.com");
+        txt_emp_cpf.setText("35662085404");
+        txtemp_numerocelular.setText("81988029779");
+        txtnome_empresa.setText("ALLWORK-LTDA");
+        txtNomeVendedor.setText("vendedor1");
+
 
 
 
@@ -176,7 +185,10 @@ public class RegistraEmpresa extends AppCompatActivity implements ConnectivityRe
         Configuracoes_SqliteDao confdao = new Configuracoes_SqliteDao(this);
         confbean.setUSU_CODIGO(0);
         confbean.setIMPORTAR_TODOS_CLIENTES("S");
+        /*
         confbean.setIP_SERVER("https://cmdv.sistemaseapps.com.br");
+        */
+        confbean.setIP_SERVER("https://cmdv.platinumweb.com.br");
         confbean.setDESCONTO_VENDEDOR(BigDecimal.ZERO);
         confbean.setJUROS_VENDA_PRAZO(BigDecimal.ZERO);
         confbean.setVENDER_SEM_ESTOQUE("S");

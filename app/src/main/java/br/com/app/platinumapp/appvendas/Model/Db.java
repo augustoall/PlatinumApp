@@ -5,8 +5,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class Db extends SQLiteOpenHelper {
-
+/*
     public static String DBname = "cmdv.db";
+
+*/
+    public static String DBname = "u232035487_cmdv_db";
     public static int version = 2;
 
     public Db(Context ctx) {
