@@ -1,39 +1,45 @@
 {
   "project_info": {
-    "project_number": "575689054337",
-    "firebase_url": "https://centralmetadevendasoficial.firebaseio.com",
-    "project_id": "centralmetadevendasoficial",
-    "storage_bucket": "centralmetadevendasoficial.appspot.com"
+    "project_number": "380735909615",
+    "firebase_url": "https://platinumapp-7d094.firebaseio.com",
+    "project_id": "platinumapp-7d094",
+    "storage_bucket": "platinumapp-7d094.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:575689054337:android:5ef7bb30b6c9276b",
+        "mobilesdk_app_id": "1:380735909615:android:9ee318fd962db985de751a",
         "android_client_info": {
-          "package_name": "br.com.app.centralmetadevendasoficial.appvendas"
+          "package_name": "br.com.app.platinumapp.appvendas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "575689054337-rv9pr698698rnivo44ad0fc5tci2c9a3.apps.googleusercontent.com",
+          "client_id": "380735909615-8frt4jv117lh1r4htiovngd2cqc6umgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.app.platinumapp.appvendas",
+            "certificate_hash": "c4fef5fb0d718f4c7762ec54ff9cb20269bd9778"
+          }
+        },
+        {
+          "client_id": "380735909615-22elu97iipps54fmf4blqcni1maulpv5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDxWr4UUroIx_5NaX_EWSMePIvUYJFyKWI"
+          "current_key": "AIzaSyC_OXHInBJupnmEhyrWYVOHTQHxNsZGKKc"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380735909615-22elu97iipps54fmf4blqcni1maulpv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

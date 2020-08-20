@@ -141,7 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="www.centralmetadevendas.com.br"
+            android:text="www.platinumweb.com.br"
             android:textColor="#c3c3c3"
             android:textSize="13sp"
             android:textStyle="bold" />
@@ -152,7 +152,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="CENTRAL META DE VENDAS OFICIAL"
+            android:text="PlatinumApp OFICIAL"
             android:textSize="11dp" />
 
         <TextView
@@ -168,7 +168,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Email : centralmetadevendas@gmail.com"
+            android:text="Email : platinumweb@allwork.com.br"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="12sp"
             android:textStyle="bold" />

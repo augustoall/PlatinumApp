@@ -228,7 +228,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="CENTRAL META DE VENDAS"
+            android:text="PlatinumApp"
             android:textSize="11dp" />
 
         <TextView
@@ -236,7 +236,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="wwww.centralmetadevendas.com.br"
+            android:text="wwww.platinumweb.com.br"
             android:textSize="6dp" />
 
         <TextView
